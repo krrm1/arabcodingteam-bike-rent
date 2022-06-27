@@ -1,4 +1,4 @@
-local QBCore = exports['qb-core']:GetCoreObject()
+local QBCore = exports['arabcodingteam-core']:GetCoreObject()
 --------------------------------------------------------------------------------------
 
 RegisterNetEvent('spwanBike:client:spawncycel')
@@ -73,7 +73,7 @@ end)
 ---------------------------------------------------------------
 RegisterNetEvent('spwanBike:client:rentmenu')
 AddEventHandler('spwanBike:client:rentmenu', function()
-    exports['qb-menu']:openMenu({
+    exports['arabcodingteam-menu']:openMenu({
         {
             header = "🚲 rent menu",
             isMenuHeader = true
